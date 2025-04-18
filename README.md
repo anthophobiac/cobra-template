@@ -28,7 +28,6 @@ go run main.go hello # An example command
 
 ### Project Structure
 ```
-
 cobra-template/
 ├── cmd/              # Cobra commands
 ├── config/           # Viper config setup
