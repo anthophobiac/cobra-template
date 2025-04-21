@@ -5,7 +5,6 @@
 A minimal template for building command-line tools in Go using:
 
 - [Cobra](https://github.com/spf13/cobra) – for CLI structure
-- [Viper](https://github.com/spf13/viper) – for configuration
 - [fatih/color](https://github.com/fatih/color) – for colourful terminal output
 
 ---
@@ -29,11 +28,7 @@ go run main.go hello # An example command
 ### Project Structure
 ```
 cobra-template/
-├── cmd/              # Cobra commands
-├── config/           # Viper config setup
+├── cmd/              # Cobra commands where new ones can be added
 ├── pkg/logger/       # Logger that uses fatih/color
 ├── main.go           # Application entrypoint
 ```
-### How to use
-* New commands can be added to `cmd/`
-* Config logic can be updated in `config/config.go`
